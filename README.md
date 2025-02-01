@@ -43,13 +43,11 @@ Ensure you have the following installed:
 ![Screenshot 3](src/assets/screenshots/Screenshot3.png)
 
 ### 🎥 Demo Video:
-[Click here to watch](#) _(Replace with actual video link)_
+![Video Demo](src/assets/screenshots/demovideo.mp4)
 
 
 
 ## 👨‍💻 Developer
 **[Banavath Srikanth](https://github.com/BanavathSrikanth)**
 
----
-> ✨ Feel free to improve the project or add more features!
-
+-------
