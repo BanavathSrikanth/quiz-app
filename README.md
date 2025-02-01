@@ -1,4 +1,4 @@
-Quiz App
+<b>Quiz App</b>
 
 📌 Project Overview
 
