@@ -43,11 +43,7 @@ Ensure you have the following installed:
 ### 🎥 Demo Video:
 [Click here to watch](#) _(Replace with actual video link)_
 
-## 📜 Submission Guidelines
-- ✅ **Upload all source code** to GitHub.
-- ✅ **Include this README file** for project details.
-- ✅ **Attach screenshots & a video walkthrough.**
-- ✅ **Submit the README file link.**
+
 
 ## 👨‍💻 Developer
 **[Banavath Srikanth](https://github.com/BanavathSrikanth)**
