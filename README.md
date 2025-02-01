@@ -1,19 +1,24 @@
-<b>Quiz App</b>
+# 🎯 Quiz App  
+A web-based quiz application with gamification features. Users can answer multiple-choice questions and receive instant feedback.
 
-📌 Project Overview
+## 🚀 Features  
+- 🏆 Gamification elements (sounds, animations)  
+- 📊 Summary of results with total points  
+- 🔄 Randomized questions  
+- 📱 Responsive design  
 
-The Quiz App is an interactive web application that fetches quiz questions from an API and presents them in a gamified format. Users can answer multiple-choice questions, view their scores, and experience sound effects for correct and incorrect answers.
+## 🛠️ Tech Stack  
+- **Frontend:** React.js  
+- **State Management:** useState, useEffect  
+- **API Integration:** Fetch API  
 
-🚀 Features
+## 📸 Screenshots  
+![Quiz App Screenshot](path/to/screenshot.png)  
 
-🏆 Multiple-choice questions fetched dynamically from an API.
+## 🎥 Video Walkthrough  
+[![Watch the video](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)  
 
-🎯 Score tracking at the end of the quiz.
-
-🔊 Sound effects for right and wrong answers.
-
-⏭ Next question navigation with real-time feedback.
-
-🎨 Responsive UI for an engaging experience.
-
-🎮 Gamification elements to make learning fun.
+## 🔧 Setup Instructions  
+1. Clone the repository:  
+   ```sh
+   git clone https://github.com/BanavathSrikanth/quiz-app.git
