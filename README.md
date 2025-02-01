@@ -38,7 +38,9 @@ Ensure you have the following installed:
 
 ## 📸 Screenshots & Video Walkthrough
 ### UI Preview:
-![Quiz App Screenshot](https://via.placeholder.com/800x400?text=Add+your+UI+Screenshot+here)
+![Screenshot 1](./path-to-screenshot1.png)
+![Screenshot 2](./path-to-screenshot2.png)
+![Screenshot 3](./path-to-screenshot3.png)
 
 ### 🎥 Demo Video:
 [Click here to watch](#) _(Replace with actual video link)_
