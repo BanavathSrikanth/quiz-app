@@ -1,0 +1,326 @@
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #a8ceee, #f4cfcf);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Option Button Bounce Animation */
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+  70% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Apply the bounce effect when the option is selected */
+button.selected {
+  animation: bounce 0.3s ease-out;
+}
+
+.quiz-container {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 90%;
+  max-width: 500px;
+  animation: fadeIn 0.5s ease-in-out;
+  margin: auto;
+}
+
+/* Title */
+h1 {
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Start Screen */
+.start-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.start-button {
+  background: #ff4081;
+  color: white;
+  border: none;
+  padding: 14px 35px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(255, 64, 129, 0.3);
+}
+
+.start-button:hover {
+  background: #e73370;
+  transform: scale(1.05);
+}
+
+/* Progress Bar */
+.progress-bar {
+  width: 100%;
+  height: 12px;
+  background: #ddd;
+  border-radius: 6px;
+  margin: 15px 0;
+  overflow: hidden;
+  position: relative;
+  transition: background-color 0.3s ease;
+}
+
+.progress-bar:hover {
+  background: #b0bec5;
+}
+
+.progress {
+  height: 100%;
+  background: #4caf50;
+  border-radius: 6px;
+  transition: width 0.4s ease-in-out;
+}
+
+
+/* Timer */
+.timer {
+  font-size: 16px;
+  font-weight: bold;
+  color: red; /* Keep it red */
+  margin-bottom: 10px;
+  animation: pulse 1s infinite;
+}
+
+/* Timer low time pulse animation */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    color: red;
+  }
+  50% {
+    transform: scale(1.1);
+    color: orange;
+  }
+  100% {
+    transform: scale(1);
+    color: red;
+  }
+}
+
+
+/* Question Number */
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+/* Question Text */
+h4 {
+  font-size: 18px;
+  color: #555;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+/* Options List */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 8px 0;
+}
+
+/* Option Buttons */
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-weight: 500;
+}
+
+/* Default Option Button */
+button:not(.next-button, .submit-button, .start-button) {
+  background: #ecf0f1;
+  color: #2c3e50;
+  border: 1px solid #bdc3c7;
+}
+
+button:not(.next-button, .submit-button, .start-button):hover {
+  background: #d5dbdb;
+}
+
+/* Selected Option */
+button.selected {
+  background: #ff4081 !important;
+  color: white !important;
+  border: 1px solid #e73370 !important;
+}
+
+/* Next Question Button */
+.next-button {
+  background: #6200ea;
+  color: white;
+  font-weight: bold;
+  margin-top: 15px;
+  box-shadow: 0 4px 10px rgba(98, 0, 234, 0.3);
+}
+
+.next-button:hover {
+  background: #4500b5;
+  transform: scale(1.05);
+}
+
+/* Submit Button */
+.submit-button {
+  background: #ff9800;
+  color: white;
+  font-weight: bold;
+  margin-top: 15px;
+  box-shadow: 0 4px 10px rgba(255, 152, 0, 0.3);
+}
+
+.submit-button:hover {
+  background: #e68900;
+  transform: scale(1.05);
+}
+
+/* Quiz Results */
+/* Quiz Results */
+.quiz-results {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-top: 15px;
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.quiz-results:hover {
+  background-color: #e0e0e0;
+}
+
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Styling for buttons */
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.check-answers-button,
+.restart-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.check-answers-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.check-answers-button:hover {
+  background-color: #45a049;
+}
+
+.restart-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.restart-button:hover {
+  background-color: #da190b;
+}
+
+/* Styling for the answers summary */
+.summary {
+  max-height: 400px;
+  overflow-y: scroll;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.question-summary {
+  margin-bottom: 15px;
+}
+
+/* Smooth transition for questions */
+.question-container {
+  opacity: 0;
+  animation: fadeInQuestion 0.5s forwards;
+}
+
+@keyframes fadeInQuestion {
+  to {
+    opacity: 1;
+  }
+}
+
+/* Fade transitions for quiz */
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in-out;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 500ms ease-in-out;
+}
+
