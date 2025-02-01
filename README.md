@@ -41,9 +41,9 @@ Ensure you have the following installed:
 ![Screenshot 1](src/assets/screenshots/Screenshot1.png width="300") ![Screenshot 2](src/assets/screenshots/Screenshot2.png width="300") ![Screenshot 3](src/assets/screenshots/Screenshot3.png)
 
 <div>
-  <img src="src/assets/screenshots/Screenshot1.png" width="400" />
-  <img src="src/assets/screenshots/Screenshot2.png" width="400" />
-  <img src="src/assets/screenshots/Screenshot3.png" width="400" />
+  <img src="src/assets/screenshots/Screenshot1.png" width="500" />
+  <img src="src/assets/screenshots/Screenshot2.png" width="500" />
+  <img src="src/assets/screenshots/Screenshot3.png" width="500" />
 </div>
 
 ### 🎥 Demo Video:
