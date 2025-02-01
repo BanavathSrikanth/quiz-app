@@ -46,6 +46,8 @@ Ensure you have the following installed:
 ### 🎥 Demo Video:
 ![Video Demo](src/assets/preview/demovideo.mp4)
 
+https://github.com/user-attachments/assets/bc966f6c-6dc4-4915-bfc4-e589498fb7e7
+
 
 
 ## 👨‍💻 Developer
