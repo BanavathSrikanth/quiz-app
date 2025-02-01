@@ -38,7 +38,13 @@ Ensure you have the following installed:
 
 ## 📸 Screenshots & Video Walkthrough
 ### UI Preview:
-![Screenshot 1](src/assets/screenshots/Screenshot1.png) ![Screenshot 2](src/assets/screenshots/Screenshot2.png) ![Screenshot 3](src/assets/screenshots/Screenshot3.png)
+![Screenshot 1](src/assets/screenshots/Screenshot1.png width="300") ![Screenshot 2](src/assets/screenshots/Screenshot2.png width="300") ![Screenshot 3](src/assets/screenshots/Screenshot3.png)
+
+<div>
+  <img src="src/assets/screenshots/Screenshot1.png" width="300" />
+  <img src="src/assets/screenshots/Screenshot2.png" width="300" />
+  <img src="src/assets/screenshots/Screenshot3.png" width="300" />
+</div>
 
 ### 🎥 Demo Video:
 ![Video Demo](src/assets/screenshots/demovideo.mp4)
